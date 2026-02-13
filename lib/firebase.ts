@@ -1,14 +1,15 @@
 import { initializeApp, getApps } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyC0Fpao_VJDMMfc9A20RXv3q0jRP9Lkt5U",
-  authDomain: "csrpha-rf.firebaseapp.com",
-  projectId: "csrpha-rf",
-  storageBucket: "csrpha-rf.firebasestorage.app",
-  messagingSenderId: "596517188878",
-  appId: "1:596517188878:web:3b5769c0bad44902cc535f",
-  measurementId: "G-X7EY9QVT72"
+  apiKey: "AIzaSyAKJwj0AOxlWhpNMKcssq3d99HrYF7hwHs",
+  authDomain: "avmc-rf.firebaseapp.com",
+  projectId: "avmc-rf",
+  storageBucket: "avmc-rf.firebasestorage.app",
+  messagingSenderId: "516564420708",
+  appId: "1:516564420708:web:1e05cc606f690f5d4bf771",
+  measurementId: "G-HHWRWYRZFP"
 };
 
 // Initialize Firebase (prevent duplicate initialization)
