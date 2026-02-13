@@ -315,7 +315,7 @@ export function RequisitionForm() {
     return (
       <>
         {/* Print Styles */}
-        <style jsx global>{`
+        <style>{`
           @media print {
             body * {
               visibility: hidden;
